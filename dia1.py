@@ -1,0 +1,8 @@
+nombre = input ("Cual es tu nombre? ").strip().title()
+print(f"Hello, {nombre}!")
+producto = input ("Cual es el nombre de tu producto?").strip().title()
+print(f"Tu producto es {producto}")
+precio = input ("Cual es el precio de tu producto?").strip()
+cantidad = input ("Cual es la cantidad de tu producto?").strip()
+total = float (precio) * int (cantidad)
+print(f"El total es: {total}")
